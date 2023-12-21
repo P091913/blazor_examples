@@ -1,0 +1,15 @@
+﻿@page "/doublecart/{passedItem1}/{passedItem2}"
+<h3>Cart</h3>
+
+<p>@passedItem1</p>
+<p>@passedItem2</p>
+
+
+@code {
+    [Parameter]
+    public string passedItem1 { get; set; }
+
+    [Parameter]
+    public string passedItem2 { get; set; }
+
+}

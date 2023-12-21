@@ -1,0 +1,11 @@
+﻿@page "/cart/{passedItem}"
+<h3>Cart</h3>
+
+<p>@passedItem</p>
+
+
+@code {
+    [Parameter]
+    public string passedItem { get; set; }
+
+}

@@ -1,0 +1,53 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+@inject ObjectService ObjectService
+@using Newtonsoft.Json
+@rendermode InteractiveServer
+
+
+<PageTitle>Home</PageTitle>
+
+<button @onclick="TransferData">View Cart</button>
+
+<button @onclick="TransferMultiData">View Cart (passing 2)</button>
+
+<hr />
+
+<input type="text" @bind-value="iUsername" />
+<input type="text" @bind-value="iClothingName" />
+<button @onclick="TransferObject">View Cart passing our object</button>
+
+@code {
+
+    private void TransferData()
+    {
+        // I'm using navigate menu and passing in a single item here
+        string cartItem = "Shoes";
+        NavigationManager.NavigateTo($"/cart/{cartItem}");
+    }
+
+    private void TransferMultiData()
+    {
+        string cartItem1 = "Hoodie";
+        string cartItem2 = "Shirt";
+        NavigationManager.NavigateTo($"/doublecart/{cartItem1}/{cartItem2}");
+    }
+
+
+    // setting up two variables binded to my text boxes
+    private string iUsername { get; set; }
+    private string iClothingName { get; set; }
+
+    ClothingItems itemInfo = new ClothingItems();
+    private void TransferObject()  
+    {
+        // Grabbing the info I binded from the text fields and storing it
+        // in an instance of my ClothingItems class called itemInfo.
+        itemInfo.username = iUsername;
+        itemInfo.ItemName = iClothingName;
+            
+        // Serialize to JSON before navigation
+        var jsonData = JsonConvert.SerializeObject(itemInfo);
+        NavigationManager.NavigateTo($"/cart3?data={Uri.EscapeDataString(jsonData)}");
+    }
+}

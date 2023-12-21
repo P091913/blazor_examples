@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorNavigatorManagerExample.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorNavigatorManagerExample.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorNavigatorManagerExample.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorNavigatorManagerExample.props",
+      "PackagePath": "build\\BlazorNavigatorManagerExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorNavigatorManagerExample.props",
+      "PackagePath": "buildMultiTargeting\\BlazorNavigatorManagerExample.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorNavigatorManagerExample.props",
+      "PackagePath": "buildTransitive\\BlazorNavigatorManagerExample.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

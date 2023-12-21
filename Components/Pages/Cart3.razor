@@ -1,0 +1,40 @@
+﻿@page "/cart3"
+@inject NavigationManager NavigationManager
+@inject ObjectService ObjectService
+@using Newtonsoft.Json
+
+
+<h3>Cart3</h3>
+
+<p>@receivedObject.ItemName</p>
+<p>@receivedObject.username</p>
+
+
+
+@code {
+    // setting up a blank instance of my ClothingItems class
+    // called passedObject
+    // At this point, we still don't have data.
+    private ClothingItems receivedObject;
+
+
+    protected override void OnInitialized()
+    {
+        // grabbing our web address and converting it to an absolute URI (contains https://)
+        var uri = NavigationManager.ToAbsoluteUri(NavigationManager.Uri);
+        // pulls data from our passed object to use so we can decode our object
+        var jsonString = System.Web.HttpUtility.ParseQueryString(uri.Query)["data"];
+
+
+        // checking if our string is empty, no reason to break our page if we haven't passed anything
+        if (!string.IsNullOrEmpty(jsonString))
+        {
+            // Preping our jsonData from above for deserialization
+            var decodeData = Uri.UnescapeDataString(jsonString);
+
+            // Deserializing our data and passing storing our data using our ClothingItems class
+            receivedObject = JsonConvert.DeserializeObject<ClothingItems>(decodeData);
+        }
+    }
+}
+}
