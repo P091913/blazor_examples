@@ -1,0 +1,18 @@
+﻿@page "/cart4"
+@inject NavigationManager NavigationManager
+@using BlazorNavigatorManagerExample.Data
+@inject MyStateContainer myStateContainer
+<h3>cart4</h3>
+
+<p>@clothing.username</p>
+<p>@clothing.ItemName</p>
+
+@code {
+    private ClothingItems clothing;
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        clothing = myStateContainer.Value;
+    }
+
+}

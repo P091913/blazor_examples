@@ -1,9 +1,9 @@
 ﻿@page "/"
 @inject NavigationManager NavigationManager
-@inject ObjectService ObjectService
+@using BlazorNavigatorManagerExample.Data
 @using Newtonsoft.Json
+@inject MyStateContainer myStateContainer
 @rendermode InteractiveServer
-
 
 <PageTitle>Home</PageTitle>
 
@@ -16,6 +16,9 @@
 <input type="text" @bind-value="iUsername" />
 <input type="text" @bind-value="iClothingName" />
 <button @onclick="TransferObject">View Cart passing our object</button>
+
+
+<button @onclick="TransferObjectHandler">Transfer Using Handler</button>
 
 @code {
 
@@ -45,9 +48,22 @@
         // in an instance of my ClothingItems class called itemInfo.
         itemInfo.username = iUsername;
         itemInfo.ItemName = iClothingName;
-            
+
         // Serialize to JSON before navigation
         var jsonData = JsonConvert.SerializeObject(itemInfo);
         NavigationManager.NavigateTo($"/cart3?data={Uri.EscapeDataString(jsonData)}");
+    }
+
+    private ClothingItems tempHold = new ClothingItems();
+    private void TransferObjectHandler()
+    {
+        tempHold.username = iUsername;
+        tempHold.ItemName = iClothingName;
+
+        // using state to hold my value to use on my cart 4 page
+        myStateContainer.SetValue(tempHold);
+
+
+        NavigationManager.NavigateTo("/cart4");
     }
 }

@@ -7,8 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-// Add service for my Object
-builder.Services.AddScoped<ObjectService>();
+// Add service for MyStateContainer
+// singleton forces my object to remain the same across all
+// requests
+builder.Services.AddSingleton<MyStateContainer>();
 
 var app = builder.Build();
 

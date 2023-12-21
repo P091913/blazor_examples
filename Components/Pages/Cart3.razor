@@ -1,6 +1,5 @@
 ﻿@page "/cart3"
 @inject NavigationManager NavigationManager
-@inject ObjectService ObjectService
 @using Newtonsoft.Json
 
 
@@ -29,12 +28,11 @@
         // checking if our string is empty, no reason to break our page if we haven't passed anything
         if (!string.IsNullOrEmpty(jsonString))
         {
-            // Preping our jsonData from above for deserialization
+            // Prepping our jsonData from above for deserialization
             var decodeData = Uri.UnescapeDataString(jsonString);
 
             // Deserializing our data and passing storing our data using our ClothingItems class
             receivedObject = JsonConvert.DeserializeObject<ClothingItems>(decodeData);
         }
     }
-}
 }
