@@ -1,6 +1,5 @@
 ﻿@page "/cart4"
 @inject NavigationManager NavigationManager
-@using BlazorNavigatorManagerExample.Data
 @inject MyStateContainer myStateContainer
 <h3>cart4</h3>
 
@@ -8,9 +7,12 @@
 <p>@clothing.ItemName</p>
 
 @code {
+    // create blank object of ClothingItems class
     private ClothingItems clothing;
     protected override void OnInitialized()
     {
+        // setting my clothing object equal to the current state
+        // of my existing container class (holding my stored object)
         base.OnInitialized();
         clothing = myStateContainer.Value;
     }
