@@ -1,0 +1,30 @@
+﻿@page "/display"
+<h3>DisplayOrders</h3>
+
+<table>
+    <tr>
+        <th>Username</th>
+    </tr>
+    @foreach (var item in mockDatabase)
+    {
+        <tr>
+            <td>@item</td>
+        </tr>
+    }
+</table>
+@code {
+    List<string> mockDatabase = new List<string>();
+
+    protected override void OnInitialized()
+    {
+        mockDatabase.Add("Jarrett");
+        mockDatabase.Add("Chuck");
+        mockDatabase.Add("Frank");
+        mockDatabase.Add("Lucille");
+        mockDatabase.Add("Judith");
+        mockDatabase.Add("Ellie");
+        mockDatabase.Add("Joel");
+        mockDatabase.Add("Mark");
+    }
+
+}

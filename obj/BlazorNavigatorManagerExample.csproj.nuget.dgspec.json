@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\BlazorNavigatorManagerExample.csproj": {}
+    "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\BlazorNavigatorManagerExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\BlazorNavigatorManagerExample.csproj": {
+    "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\BlazorNavigatorManagerExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\BlazorNavigatorManagerExample.csproj",
+        "projectUniqueName": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\BlazorNavigatorManagerExample.csproj",
         "projectName": "BlazorNavigatorManagerExample",
-        "projectPath": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\BlazorNavigatorManagerExample.csproj",
+        "projectPath": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\BlazorNavigatorManagerExample.csproj",
         "packagesPath": "C:\\Users\\jarrettplate\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\obj\\",
+        "outputPath": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

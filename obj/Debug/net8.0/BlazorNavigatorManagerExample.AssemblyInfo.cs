@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorNavigatorManagerExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9142fa1fa48d931bbf2461313785b9ba60c5ed49")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorNavigatorManagerExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorNavigatorManagerExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

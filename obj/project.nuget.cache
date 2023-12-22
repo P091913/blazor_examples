@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ASJfeErdxtltemCugEem9UqAMXN91XBkKuwQ9CuOYR/fiEPUu0kiOGOhIaCztIWQNvE2+A/EeWp2lScNdUEb/Q==",
+  "dgSpecHash": "5/2/h/ubaFevW/a3Tby4OSFBNFZo5Dt/x9wm6ysrdkDOPLSYiG2Qn0iunlJgbL/ZWkjJMDZ+5FPYQUkPRRe/Xw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\BlazorNavigatorManagerExample.csproj",
+  "projectFilePath": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\BlazorNavigatorManagerExample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jarrettplate\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

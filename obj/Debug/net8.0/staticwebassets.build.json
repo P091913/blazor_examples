@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uY7o7/bNlDXeyfxalPr2DmcXBDrvvakdCpwLwgYNS0M=",
+  "Hash": "+65tyRk/1BDNFy4TFO0it4S9n/ychJ/s7ZDy514Hx2I=",
   "Source": "BlazorNavigatorManagerExample",
   "BasePath": "_content/BlazorNavigatorManagerExample",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorNavigatorManagerExample\\wwwroot",
       "Source": "BlazorNavigatorManagerExample",
-      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\wwwroot\\",
       "BasePath": "_content/BlazorNavigatorManagerExample",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorNavigatorManagerExample.styles.css",
+      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorNavigatorManagerExample.styles.css",
       "SourceId": "BlazorNavigatorManagerExample",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorNavigatorManagerExample",
       "RelativePath": "BlazorNavigatorManagerExample.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorNavigatorManagerExample.styles.css"
+      "OriginalItemSpec": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorNavigatorManagerExample.styles.css"
     },
     {
-      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorNavigatorManagerExample.bundle.scp.css",
+      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorNavigatorManagerExample.bundle.scp.css",
       "SourceId": "BlazorNavigatorManagerExample",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorNavigatorManagerExample",
       "RelativePath": "BlazorNavigatorManagerExample.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorNavigatorManagerExample.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorNavigatorManagerExample.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\wwwroot\\app.css",
       "SourceId": "BlazorNavigatorManagerExample",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\wwwroot\\",
       "BasePath": "_content/BlazorNavigatorManagerExample",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorNavigatorManagerExample",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\wwwroot\\",
       "BasePath": "_content/BlazorNavigatorManagerExample",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorNavigatorManagerExample",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\wwwroot\\",
       "BasePath": "_content/BlazorNavigatorManagerExample",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\wwwroot\\favicon.png",
       "SourceId": "BlazorNavigatorManagerExample",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\BlazorNavigatorManagerExample\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jarrettplate\\source\\repos\\PulledExample\\blazor_examples\\wwwroot\\",
       "BasePath": "_content/BlazorNavigatorManagerExample",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
