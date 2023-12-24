@@ -1,21 +1,25 @@
 ﻿@page "/displaydict"
 <h3>DisplayOrders</h3>
+@rendermode InteractiveServer
+
 
 <table>
     <tr>
+        <th></th>
         <th>Clothing Item</th>
         <th>Price</th>
     </tr>
     @foreach (var item in mockDatabase)
     {
         <tr>
+            <td><button @onclick="() => RemoveItem(item)">Delete</button></td>
             <td>@item.Key</td>
             <td>@item.Value</td>
         </tr>
     }
 </table>
+
 @code {
-    // making and empty dictionary to use
     Dictionary<string, double> mockDatabase = new Dictionary<string, double>();
 
     protected override void OnInitialized()
@@ -23,6 +27,10 @@
         mockDatabase["Hoodie"] = 24.99;
         mockDatabase["Joggers"] = 32.99;
         mockDatabase["Coat"] = 79.99;
+    }
 
+    private void RemoveItem(KeyValuePair<string, double> item)
+    {
+        mockDatabase.Remove(item.Key);
     }
 }
