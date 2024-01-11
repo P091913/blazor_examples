@@ -2,7 +2,9 @@
 @inject NavigationManager NavigationManager
 @using Newtonsoft.Json
 @inject MyStateContainer myStateContainer
+@inject ListServicecs ItemsListService
 @rendermode InteractiveServer
+
 
 <PageTitle>Home</PageTitle>
 
@@ -17,6 +19,8 @@
 <button @onclick="TransferMultiData">Transfer Multiple Strings</button>
 
 <button @onclick="TransferObjectHandler">Transfer Using Handler</button>
+
+<button @onclick="TransferList">Transfer List</button>
 
 @code {
 
@@ -62,5 +66,11 @@
 
 
         NavigationManager.NavigateTo("/cart4");
+    }
+    
+    private void TransferList()
+    {
+        ItemsListService.ItemsList = new List<string> { "Hoodie", "Jeans", "Shirt" };
+        NavigationManager.NavigateTo("/cart5", true);
     }
 }

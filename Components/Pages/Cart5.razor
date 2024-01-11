@@ -1,0 +1,19 @@
+﻿@page "/cart5"
+@inject NavigationManager NavigationManager
+@inject ListServicecs ItemsListService
+<h3>cart5</h3>
+
+@if (ItemsListService.ItemsList != null)
+{
+    <ul>
+        @foreach (var item in ItemsListService.ItemsList)
+        {
+            <li>@item</li>
+        }
+    </ul>
+}
+
+
+@code {
+
+}

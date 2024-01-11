@@ -12,6 +12,9 @@ builder.Services.AddRazorComponents()
 // requests
 builder.Services.AddSingleton<MyStateContainer>();
 
+
+builder.Services.AddSingleton<ListServicecs>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

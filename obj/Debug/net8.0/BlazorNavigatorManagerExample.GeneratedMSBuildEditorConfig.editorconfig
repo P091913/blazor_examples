@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXJ0NC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jarrettplate/source/repos/PulledExample/blazor_examples/Components/Pages/Cart5.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXJ0NS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jarrettplate/source/repos/PulledExample/blazor_examples/Components/Pages/DisplayDict.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaXNwbGF5RGljdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
